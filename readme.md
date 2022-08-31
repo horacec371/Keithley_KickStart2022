@@ -18,7 +18,12 @@ https://www.tek.com/tw/products/keithley/source-measure-units/2600b-series-sourc
 
 ![Screenshot 2022-08-31 12-44-38](https://user-images.githubusercontent.com/55008636/187594557-5bc4d27f-e70e-4e5e-9410-772fbae2927c.png)
 
-2. Can the max sweep points exceed 60K pts?
+2. Can the max sweep points exceed 100K/60K/30K/29K pts?　Ans: Error Message - IOTimeoutException
+
+![image](https://user-images.githubusercontent.com/55008636/187595148-660ee83f-311d-4169-970e-19cea501bb29.png)
+
+If the max point is over 25K pts, it's not recommended. 25K pts is still accepted in ths experiment as follow,
+
+![image](https://user-images.githubusercontent.com/55008636/187596170-d7451ca6-7db9-47d2-af59-8b9dd26ff032.png)
 
 
-3. 
