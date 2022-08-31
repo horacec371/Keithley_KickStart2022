@@ -22,6 +22,12 @@ https://www.tek.com/tw/products/keithley/source-measure-units/2600b-series-sourc
 
 ![image](https://user-images.githubusercontent.com/55008636/187595148-660ee83f-311d-4169-970e-19cea501bb29.png)
 
+```
+17360.  viWrite (USB0::0x05E6::0x2636::4416451::INSTR (0x00000001), "smua.trigger.initiate()", 23 (0x17), 23 (0x17))
+Process ID: 0x00000B70         Thread ID: 0x00000820
+Start Time: 14:43:51.9814      Call Duration 00:00:00.0000
+Status: 0 (VI_SUCCESS)
+```
 If the max point is over 25K pts, it's not recommended. 25K pts is still accepted in ths experiment as follow,
 
 ![image](https://user-images.githubusercontent.com/55008636/187596170-d7451ca6-7db9-47d2-af59-8b9dd26ff032.png)
